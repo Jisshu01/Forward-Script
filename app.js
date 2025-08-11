@@ -8,8 +8,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const cors = require('cors');
 const path = require('path');
 
-const BOT_TOKEN = "8177452432:AAGHBV6SNBwsBvMVQA1cim_Bisf7dpxitQs";
-const MONGO_URI = "mongodb+srv://isagi:isagi@cluster0.3wxdv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const BOT_TOKEN = "";
+const MONGO_URI = "";
 const DB_NAME = "forward_bot";
 const COLLECTION_NAME = "config";
 const FORWARD_SLEEP = 0;
@@ -758,3 +758,4 @@ process.on('SIGINT', async () => {
 });
 
 startServer().catch(console.error);
+
